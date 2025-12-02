@@ -1,0 +1,73 @@
+body{
+    background-color: black
+}
+
+li{
+    padding: 3px;
+}
+
+p,li{
+    color: rgba(220, 220, 220, 0.774)
+}
+
+h1{
+    color: yellow;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    display: none;
+}
+
+/* Japão */
+#japao1{
+    color: white;
+}
+
+#japao2{
+    color: red;
+}
+
+#japao3{
+    color: white;
+}
+
+/* França */
+#franca1{
+    color: blue;
+}
+
+#franca2{
+    color: white;
+}
+
+#franca3{
+    color: red;
+}
+
+/* México */
+#mexico1{
+    color: green;
+}
+
+#mexico2{
+    color: white;
+}
+
+#mexico3{
+    color: red;
+}
+
+/* Coreia */
+#coreia1{
+    color: white;
+}
+
+#coreia2{
+    color: red;
+}
+
+#coreia3{
+    color: blue;
+}

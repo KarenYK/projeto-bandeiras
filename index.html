@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 onmousedown="mudaCor()" onmouseup="voltaCor()" id="teste">Teste de Eventos</h1>
+    <p ondblclick="muda()" id="pais">Países</p>
+
+    <ul>
+        <li onmouseover="japaMostra()" onmouseleave="japaApaga()" id="japao0">Japão</li>
+        <p id="japao1"></p>
+        <p id="japao2"></p>
+        <p id="japao3"></p>
+        <img src="./Img/banJapao.png" alt="Bandeira do Japão" id="imageJ">
+
+        <li onmouseover="francaMostra()" onmouseleave="francaApaga()" id="franca0">França</li>
+        <p id="franca1"></p>
+        <p id="franca2"></p>
+        <p id="franca3"></p>
+        <img src="./Img/banFranca.jpg" alt="Bandeira da França" id="imageF">
+
+        <li onmouseover="mexicoMostra()" onmouseleave="mexicoApaga()" id="mexico0">México</li>
+        <p id="mexico1"></p>
+        <p id="mexico2"></p>
+        <p id="mexico3"></p>
+        <img src="./Img/banMexico.jpg" alt="Bandeira do México" id="imageM">
+        
+        <li onmouseover="coreiaMostra()" onmouseleave="coreiaApaga()" id="coreia0">Coreia</li>
+        <p id="coreia1"></p>
+        <p id="coreia2"></p>
+        <p id="coreia3"></p>
+        <img src="./Img/banCoreia.png" alt="Bandeira da Coreia" id="imageC">
+    </ul>
+
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
